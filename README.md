@@ -2,7 +2,7 @@
 
 ## Solution to isentia https://github.com/Isentia/Coding-Challenge/blob/master/Data-Engineer-Coding-Challenge.md
 
-# EC2 Link - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler
+## EC2 Link - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler
 
 This simple Java Application Crawls through - The Guardian Australia website and scans for Headlines, Articles, Authors and Dates. Which it stores in MongoDB. 
 The Application also implements a restful search service, allowing it to search for keywords in specific stored fields. Owing, to the scheduler, the application automatically
@@ -20,7 +20,7 @@ updates its knowledge and crawls The Guardian website everynight at 2 AM.
 
 ## Running / Deployment
 
-Simply deploy to your Glassfish server and ensure mLab DB connection is accessible. A deployment test is run to ensure a suitable environment.
+Simply compile the .war and deploy to your Glassfish server and ensure mLab DB connection is accessible. A deployment test is run to ensure there is a suitable environment.
 
 ## Restful search
 
