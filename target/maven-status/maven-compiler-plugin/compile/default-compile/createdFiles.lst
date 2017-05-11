@@ -1,0 +1,6 @@
+com\isentia\guardiancrawler\Config.class
+com\isentia\guardiancrawler\CrawlerTrigger.class
+com\isentia\guardiancrawler\SearchResource.class
+com\isentia\guardiancrawler\CrawlerJob.class
+com\isentia\guardiancrawler\Result.class
+com\isentia\guardiancrawler\Crawler.class
