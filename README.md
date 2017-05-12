@@ -14,7 +14,7 @@ updates its knowledge and crawls The Guardian website everynight at 2 AM.
 
 1. MongoDB (mlab)
 2. JSoup
-3. Qurtz
+3. Quartz
 4. Glassfish
 5. Java 7
 
