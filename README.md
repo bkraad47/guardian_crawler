@@ -22,7 +22,7 @@ updates its knowledge and crawls The Guardian website everynight at 2 AM.
 
 Simply compile the .war and deploy to your Glassfish server and ensure mLab DB connection is accessible. A deployment test is run to ensure there is a suitable environment.
 
-## Restful search
+## Restful Search
 
 A get api, which consumes type and query as query parameters, does the search on MongoDB and returns results accordingly as a JSON array.
 
@@ -32,7 +32,7 @@ type can be author, headline, date or text.
 
 query should be the string you want to search for.
 
-Test Example - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler/search?type=headline&query=Macron
+Test Example - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler/search?type=headline&query=Trump
 
 ## Test 
 
