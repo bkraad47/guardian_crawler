@@ -6,7 +6,7 @@
 
 This simple Java Application Crawls through - The Guardian Australia website and scans for Headlines, Articles, Authors and Dates. Which it stores in MongoDB. 
 The Application also implements a restful search service, allowing it to search for keywords in specific stored fields. Owing, to the scheduler, the application automatically
-updates its knowledge and crawls The Guardian website everynight at 2 AM.
+updates its knowledge and crawls The Guardian website everynight at 2 AM (US west time).
 
 *** The DB has been changed to mLab from compose for testing/hosting purposes ***
 
