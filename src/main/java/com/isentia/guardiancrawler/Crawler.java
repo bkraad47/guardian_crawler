@@ -114,6 +114,8 @@ public class Crawler extends Thread {
                 } finally {
                     mongoClient.close();
                 }
+                
+                // Avoid thread blocking to MongoDB resource
                 for(Crawler c :spiderlings ){
                     c.run();
                 }
