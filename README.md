@@ -10,6 +10,8 @@ updates its knowledge and crawls The Guardian website everynight at 2 AM (US wes
 
 *** The DB has been changed to mLab from compose for testing/hosting purposes ***
 
+*** The code is multi-threaded and will only work if number of threads running at the processor < Max MongoDB connections***
+
 ## Dependencies
 
 1. MongoDB (mlab)
