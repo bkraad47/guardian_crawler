@@ -1,7 +1,5 @@
 # Guardian AU webcrawler - Badruddin Kamal (Raad)
 
-## Solution to isentia https://github.com/Isentia/Coding-Challenge/blob/master/Data-Engineer-Coding-Challenge.md
-
 ## EC2 Link - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler
 
 This simple Java Application Crawls through - The Guardian Australia website and scans for Headlines, Articles, Authors and Dates. Which it stores in MongoDB. 
