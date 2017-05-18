@@ -27,7 +27,7 @@ Simply compile the .war and deploy to your Glassfish server and ensure mLab DB c
 
 A get api, which consumes type and query as query parameters, does the search on MongoDB and returns results accordingly as a JSON array.
 
-Endpoint - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler/search
+Endpoint[GET] - http://ec2-34-210-127-161.us-west-2.compute.amazonaws.com:8080/guardiancrawler/search
 
 type can be author, headline, date or text.
 
